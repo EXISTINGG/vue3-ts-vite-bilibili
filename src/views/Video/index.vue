@@ -12,9 +12,10 @@
 import axios from 'axios'
 import {useRoute} from 'vue-router'
 import {ref} from 'vue'
-import AppHeader from "@/components/AppHeader.vue";
+import AppHeader from "../../components/AppHeader.vue";
 import VideoPlayer from "./components/video-player.vue";
 import VideoBottom from './components/video-bottom.vue'
+
 
 // 初始化对象类型,加上?,使用时就不用写一堆了
 export interface IVideoInfo {

@@ -1,11 +1,11 @@
 import { createApp, useAttrs } from 'vue'
 import App from './App.vue'
 import router from './router/index'
-import '@/mock/index'
+import './mock/index'
 
 // 导入样式
-import '@/assets/styles/base.less'
-import '@/assets/styles/iconfont.less'
+import './assets/styles/base.less'
+import './assets/styles/iconfont.less'
 // 引入vant组件
 import { Tab, Tabs, Swipe, SwipeItem } from 'vant';
 const app = createApp(App)

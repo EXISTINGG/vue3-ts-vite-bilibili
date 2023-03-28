@@ -7,7 +7,7 @@
 <script lang="ts" setup>
 import axios from 'axios'
 import {ref} from 'vue'
-import AppVideoItem from '@/components/AppVideoItem.vue'
+import AppVideoItem from '../../../components/AppVideoItem.vue'
 import {IVideoItem} from '../../Home/components/home-video-list.vue'
 
 const recommendVideos = ref<IVideoItem []>([])

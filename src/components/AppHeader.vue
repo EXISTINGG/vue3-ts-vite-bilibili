@@ -10,7 +10,7 @@
     </a>
     <!-- 头像 -->
     <a class="face" href="#">
-      <img src="@/assets/images/login.png" />
+      <img src="../assets/images/login.png" />
     </a>
     <!-- 下载按钮 -->
     <div class="down-app">下载 APP</div>

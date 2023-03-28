@@ -10,7 +10,7 @@
 </template>
 
 <script lang="ts" setup>
-import AppHeader from '@/components/AppHeader.vue'
+import AppHeader from '../../components/AppHeader.vue'
 import HomeChannel from './components/home-channel.vue'
 import HomeSwipe from './components/home-swipe.vue'
 import HomeVideoList from './components/home-video-list.vue'

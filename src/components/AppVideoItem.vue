@@ -20,7 +20,7 @@
 <script lang="ts" setup>
 import { PropType, toRefs } from 'vue'
 import {useRouter} from 'vue-router'
-import { IVideoItem } from '@/views/Home/components/home-video-list.vue'
+import {IVideoItem} from '../views/Home/components/home-video-list.vue'
 import { useRoute } from 'vue-router'
 
 // 父传子需要通过 defineProps 接收

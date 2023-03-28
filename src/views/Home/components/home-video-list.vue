@@ -7,7 +7,7 @@
 <script lang="ts" setup>
   import {ref} from 'vue'
   import axios from 'axios'
-  import AppVideoItem from '@/components/AppVideoItem.vue'
+  import AppVideoItem from '../../../components/AppVideoItem.vue'
 
   // 导出接口(视频组件需要用到)
   export interface IVideoItem {
