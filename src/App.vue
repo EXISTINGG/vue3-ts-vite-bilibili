@@ -1,11 +1,7 @@
 <template>
-  <router-view></router-view>
+    <router-view></router-view>
 </template>
 
-<script>
+<script></script>
 
-</script>
-
-<style lang='less'>
-
-</style>
+<style lang="less"></style>
